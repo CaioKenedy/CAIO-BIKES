@@ -35,7 +35,34 @@
 .seguros-item ul {
   grid-column: 1/-1;
   margin-bottom: 32px;
+  position: relative;
 }
+
+.seguros-item li {
+  display: flex;
+  align-items: center;
+}
+
+.seguros-item li + li {
+  margin-top: 20px;
+}
+
+.seguros-item li::before {
+  content: "";
+  display: block;
+  width: 13px;
+  height: 9px;
+  background-image: url(../../img/icones/lista.svg);
+  position: absolute;
+  left: -21px;
+}
+
 .seguros-item a {
   grid-column: 1/-1;
+}
+
+@media (max-width: 800px) {
+  .seguros {
+    grid-template-columns: 1fr;
+  }
 }
