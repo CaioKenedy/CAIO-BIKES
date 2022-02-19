@@ -1,7 +1,7 @@
 # Bikcraft
 
 
-Website devoleped during Origamid Course. In this website we gonna use:
+Website developed during Origamid Course. In this website we gonna use:
 - Html
 - CSS
 - Javascript
