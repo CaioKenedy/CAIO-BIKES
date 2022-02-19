@@ -77,7 +77,3 @@
     flex-direction: column;
   }
 }
-
-.link:hover {
-  color: var(--cor-0);
-}

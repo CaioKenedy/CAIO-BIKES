@@ -28,8 +28,27 @@
   color: var(--cor--2);
 }
 
+.botao.seta::after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  background: url("../../img/icones/seta.svg");
+  transition: transform 0.2s;
+}
+
+.botao.seta:hover:after {
+  transform: translateX(4px);
+}
+
 .botao.secundario:hover {
   background: var(--cor-9);
+}
+
+.botao.seta {
+  display: flex;
+  align-items: center;
 }
 
 @media (max-width: 600px) {
@@ -52,4 +71,32 @@
   width: 100%;
   height: 4px;
   background-color: currentColor;
+}
+
+.link:hover {
+  color: var(--cor-0);
+}
+
+/* Paginas internas */
+
+.titulo-bg {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--cor-11);
+}
+
+.titulo p {
+  margin-bottom: 4px;
+}
+
+@media (max-width: 800px) {
+  .titulo-bg {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .titulo p {
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
+  }
 }
