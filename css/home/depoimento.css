@@ -42,6 +42,12 @@
   position: absolute;
 }
 
+@media (min-width: 1200px) {
+  .depoimento img {
+    max-height: 520px;
+  }
+}
+
 @media (max-width: 800px) {
   .depoimento {
     grid-template-columns: 1fr;
