@@ -14,4 +14,4 @@ Every step will be registred in this repository.
 
 ---
 
-Bikcraft is a wonderful company focused on hand-made products. We love to produce unique bicycles and share our passion for riding.
+Bikcraft is a wonderful company focused on hand-made products. We love to produce unique bicycles and share our passion for riding. We care about your safety and our insurance will cover anything you need.
