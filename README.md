@@ -5,7 +5,8 @@ Website developed during Origamid Course. In this website i'm gonna use:
 - Html
 - CSS
 - Javascript
-- Semantic html
+- PHP (for forms)
+- Optimization for screen readers
 - Responsiveness
 
 ---
