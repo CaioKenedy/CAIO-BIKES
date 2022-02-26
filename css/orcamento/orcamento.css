@@ -120,7 +120,7 @@
   margin-top: 20px;
 }
 
-#bikcraft:checked ~ #orcamento-bikcraft,
+#bike:checked ~ #orcamento-bike,
 #seguro:checked ~ #orcamento-seguro {
   display: grid;
   gap: 20px;
