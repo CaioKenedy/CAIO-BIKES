@@ -2,7 +2,10 @@
 
 
 
-![](img/bike%20readme%201.png)
+![](img/bikereadme.png)
+<p align="center">
+  <img src="https://github.com/CaioKenedy/CAIO-BIKES/blob/main/img/mobile.png" alt="Mobile image"/>
+</p>
 
 > Projeto construído no curso de HTML e CSS da Origamid. O CA&O BIKES é um setor da empresa fictícia CA&O, voltado para o comércio de bicicletas elétricas e sustentáveis.
 
